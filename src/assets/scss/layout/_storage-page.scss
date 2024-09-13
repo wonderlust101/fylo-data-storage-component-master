@@ -6,7 +6,7 @@
   align-content: center;
   justify-items: center;
   gap: 1rem;
-  background: url('/src/assets/images/bg-mobile.png') var(--clr-background) no-repeat;
+  background: url('/public/images/bg-mobile.png') var(--clr-background) no-repeat;
   background-size: cover;
   
   & > * {
@@ -22,7 +22,7 @@
     align-items: flex-end;
     justify-content: center;
     padding: 15%;
-    background: url('/src/assets/images/bg-desktop.png') var(--clr-background) no-repeat bottom;
+    background: url('/public/images/bg-desktop.png') var(--clr-background) no-repeat bottom;
     background-size: 100% 50%;
   }
 }

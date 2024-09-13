@@ -1,5 +1,5 @@
 import React, {ReactNode} from "react";
-import Logo from '/src/assets/images/logo.svg';
+import Logo from '/images/logo.svg';
 
 type StorageMenuProps = {
     children?: ReactNode;
