@@ -1,0 +1,9 @@
+@use '../abstract/index' as a;
+
+:root {
+  @include a.map-to-root(clr, a.$colors);
+}
+
+#root {
+  display: grid;
+}

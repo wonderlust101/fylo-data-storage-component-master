@@ -1,17 +1,20 @@
 // Colors
 $colors: (
   // Main Colors
-        blue: (
+        'blue': (
                 '200': #dbd9ff,
                 '300': #697ed4,
                 '700': #1e2d69,
                 '800': #0f1b3d,
                 '900': #0c122c,
         ),
-        gradient: (
+        'grey': (
+                '500': #a7a9b2
+        ),
+        'gradient': (
                 'pink': linear-gradient(90deg, #ffa197 0%, #ff4a95 100%)
         ),
-        box-shadow: (
+        'box-shadow': (
                 'black': #00000040,
         ),
   // Other

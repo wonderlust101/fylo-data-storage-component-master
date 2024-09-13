@@ -1,0 +1,31 @@
+.storage-menu {
+  display: grid;
+  gap: 2.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: var(--clr-blue-700);
+  border-radius: 1rem 6.5rem 1rem 1rem;
+
+  &__icons {
+    display: grid;
+    grid-template: 3.5rem / 3.5rem 3.5rem 3.5rem;
+    gap: 1rem;
+
+    & > * {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      background-color: var(--clr-blue-900);
+      border-radius: 0.75rem;
+    }
+  }
+
+  &__icon {
+    place-self: center;
+    width: 1.5rem;
+  }
+  
+  &__logo {
+    width: 8.5rem;
+  }
+}

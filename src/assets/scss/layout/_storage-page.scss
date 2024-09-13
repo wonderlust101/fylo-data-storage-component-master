@@ -1,0 +1,28 @@
+@use '../abstract' as a;
+
+.storage-page {
+  display: grid;
+  grid-template: max-content max-content / 1fr;
+  align-content: center;
+  justify-items: center;
+  gap: 1rem;
+  background: url('/src/assets/images/bg-mobile.png') var(--clr-background) no-repeat;
+  background-size: cover;
+  
+  & > * {
+    width: 90%;
+    
+    @include a.breakpoint(medium) {
+      width: 100%;
+    }
+  }
+
+  @include a.breakpoint(medium) {
+    grid-template: max-content / max-content 1fr;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15%;
+    background: url('/src/assets/images/bg-desktop.png') var(--clr-background) no-repeat bottom;
+    background-size: 100% 50%;
+  }
+}
